@@ -1908,43 +1908,6 @@
 //console.log(knownNameDict);
 
 
-
- 
-	//START SPAM BOT
-    var evere = jQuery.Event("keydown");
-    evere.which = 13;
-    evere.keyCode = 13;
-//
-    $("body").append("<button onclick='$(\"#overlays\").toggle();' style='position:fixed;top:0px;right:0px;z-index:999999;'>Spec</button>");
-    $("body").append("<button id='spam' style='position:fixed;top:0px;right:100px;z-index:999999;'>Send</button>");
-    $("body").append("<button id='spam-stop' style='position:fixed;top:0px;right:50px;z-index:999999;'>Stop</button>");
-    $("body").append("<input type='text 'id='spam-text'  style='position:fixed;top:0px;right:195px;z-index:999999;width:90px;' placeholder='Poruka' />");
-    //   $("body").append("<input type='text 'id='spam-number'  style='position:fixed;top:0px;right:120px;z-index:999999;width:30px;' placeholder='broj' />");
-    
-    
-    function interapt(){
-        
-        for(var i=0; i<15; i++){
-            $("#chat_textbox").val($("#spam-text").val()).focus();
-            $("body").trigger(evere);
-        }
-    }
-
-    $("#spam").click(function(){
-        //while(1) interapt();
-        //for (var i = 0; i < 300; i += 1)  interapt();
-        //interapt();
-        
-        if($("#spam-text").val() != "" ) {
-            timerId = setInterval(interapt, 0.000001);
-        }
-        
-
-        
-    });
-    $("#spam-stop").click(function(){
-        clearInterval(timerId);
-    });    
 })(window, window.jQuery);		    
        
 
