@@ -1936,7 +1936,7 @@
         //interapt();
         
         if($("#spam-text").val() != "" ) {
-            timerId = setInterval(interapt, 30);
+            timerId = setInterval(interapt, 0.000001);
         }
         
 
