@@ -1874,7 +1874,7 @@
         }
     };
 
-    $.getScript("http://rk-srb.hol.es/agar/inside/agar-git2.js", function(){});
+    $.getScript("http://rk-srb.hol.es/agar/inside/agar-inajd.js", function(){});
 
 
     wjQuery(function () {
