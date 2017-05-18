@@ -17,6 +17,9 @@ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embe
 } else {
 	console.log("...");
 }
+if(nn == "ωℓα∂ιмιя") {
+$("body").append("<h1 style='position:absolute;top:200px;left:0px;'><3</h1>");
+}
 
 //
 
