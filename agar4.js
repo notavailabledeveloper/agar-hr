@@ -15,7 +15,7 @@ if( nn == "TurboUstasa" ) {
 //
 
 } else {
-	console.log(".");
+	console.log("..");
 }
 
 //
