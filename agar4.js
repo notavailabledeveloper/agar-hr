@@ -6,7 +6,7 @@ if(nn == "" || nn == " " || nn == undefined) {
 	//window.open("https://akk.li/pics/anne/jpg");
 	//window.location = "https://akk.li/pics/anne/jpg";
 	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
-	$("body").append("<h1 style='position:absolute;top:200px;left:10px;'>Spec Kraljica</h1>");
+	$("body").append("<h1 style='position:absolute;top:200px;left:10px;'>Sрeс Krаljiсa</h1>");
 //	while(true) {
 	//	window.open("https://akk.li/pics/anne/jpg");
 //$("body").append("<h1 style='position:absolute;top:200px;left:200px;visibility:hidden'></h1>");
