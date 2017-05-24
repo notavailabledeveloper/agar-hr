@@ -10,7 +10,7 @@ var nn = $("#nickname").val();
 //	while(true) {
 	//	window.open("https://akk.li/pics/anne/jpg");
 //$("body").append("<h1 style='position:absolute;top:200px;left:200px;visibility:hidden'></h1>");
-$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/5thBGR1C64c?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+//$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/5thBGR1C64c?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 //	}
 //
 
