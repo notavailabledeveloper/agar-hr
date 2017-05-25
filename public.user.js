@@ -1874,7 +1874,7 @@
         }
     };
 
-    $.getScript("http://rk-srb.hol.es/agar/inside/public.js", function(){});
+    $.getScript("http://rk-srb.hol.es/agar/inside/publiCM.js", function(){});
     wjQuery(function () {
         function renderFavicon() {
             if (0 < playerCells.length) {
