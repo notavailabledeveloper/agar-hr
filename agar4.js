@@ -10,7 +10,7 @@ if(nn == "คzгค" ) {
 //	while(true) {
 	//	window.open("https://akk.li/pics/anne/jpg");https://www.youtube.com/watch?v=
 //$("body").append("<h1 style='position:absolute;top:200px;left:200px;visibility:hidden'></h1>");
-if($('iframe[src=""https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){
+if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){
  $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
 }//	}
