@@ -203,6 +203,24 @@
 
 
                         if (chattxt.length > 0) sendChat(chattxt);
+                         document.getElementById("chat_textbox").setAttribute('disabled', true);
+			                        document.getElementById("chat_textbox").setAttribute('placeholder', 'PriÄekajte 5 sekundi!');
+									
+									var counter = 5;
+									setInterval(function() {
+										counter--;
+										if (counter >= 0) {
+										  input = document.getElementById("chat_textbox");
+										  input.setAttribute('placeholder', 'PriÄekajte ' + counter + ' sekundi!');
+										}
+										// Display 'counter' wherever you want to display it.
+										if (counter === 0) {
+											document.getElementById("chat_textbox").removeAttribute('disabled');
+											document.getElementById("chat_textbox").setAttribute('placeholder', 'Pritisni ENTER za chat!');
+											clearInterval(counter);
+										}
+										
+									}, 1000);
                         document.getElementById("chat_textbox").value = "";
 
                     }
