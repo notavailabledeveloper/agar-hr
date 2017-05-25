@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        agar-hr.ga Chat script :)
+// @name        agar-hr.ga CChhaatt script :)
 // @namespace   agar-hr.ga
 // @description Script for agar-hr.ga for full control of chat
 // @include     *://agar-hr.ga/*
-// @author      Nikola
+// @author      Riksha
 // @version     1
 // @grant       none
 // ==/UserScript==
