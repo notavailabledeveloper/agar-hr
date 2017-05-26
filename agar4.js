@@ -19,6 +19,12 @@ if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').lengt
 //} else {
 //	console.log("...");
 }
+if(nn == "[dms] ᵏʳᶤˢᵗᶤʲᵃᶰ") {
+if($('iframe[src="https://www.youtube.com/embed/cyKguoth9e0?autoplay=1"]').length == 0){
+ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/cyKguoth9e0?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+
+}
+}
 
 //
 
