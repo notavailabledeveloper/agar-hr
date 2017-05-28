@@ -1,5 +1,4 @@
 var nn = $("#nickname").val();
-console.log("_");
 //if( nn == "" ) {
 
 //	$("body").append("<img src='http://www.a1info.net/wp-content/uploads/2016/09/grcka-srbija-pravoslavlje-BalkansPress.com_800-696x392.jpg' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
