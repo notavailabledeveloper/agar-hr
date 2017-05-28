@@ -29,5 +29,7 @@ console.log("_");
 //else {
    //window.location = "";
 // }
- $('<iframe src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
+if($('iframe[src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '"]').length == 0 && nn != ""){
+ $('<iframe src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '" style="display:none;"></iframe>')
    .appendTo('#overlays');
+}
