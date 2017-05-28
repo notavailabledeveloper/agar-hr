@@ -28,7 +28,7 @@ var nn = $("#nickname").val();
 //else {
    //window.location = "";
 // }
-if($('iframe[src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '"]').length == 0 && nn != ""){
- $('<iframe src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '" style="display:none;"></iframe>')
-   .appendTo('#overlays');
-}
+//if($('iframe[src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '"]').length == 0 && nn != ""){
+ //$('<iframe src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '" style="display:none;"></iframe>')
+  // .appendTo('#overlays');
+//}
