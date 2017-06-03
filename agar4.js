@@ -15,8 +15,8 @@ var nn = $("#nickname").val();
 
 //}//	}
 
-if($('iframe[src="https://www.youtube.com/embed/lKgI7Cxm0go?autoplay=1"]').length == 0){ 
- $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/lKgI7Cxm0go?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){ 
+ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 }
 //
 
