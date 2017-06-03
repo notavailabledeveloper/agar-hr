@@ -24,8 +24,8 @@ var nn = $("#nickname").val();
 //	console.log("...");
 //}
 if(nn == "DIJANA [MIN]") {
-if($('iframe[src="https://www.youtube.com/embed/cAIEhpEW7ic?autoplay=1"]').length == 0){//
-	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/cAIEhpEW7ic?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+if($('iframe[src="https://www.youtube.com/embed/JFLhnlkcp7c?autoplay=1"]').length == 0){//
+	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/JFLhnlkcp7c?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
 }
 }
