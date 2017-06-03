@@ -23,9 +23,9 @@ var nn = $("#nickname").val();
 //} else {
 //	console.log("...");
 //}
-if(nn == "🌏ᔕѶᗴ𝔪𝕀Ɍ𝕊𝓚Ą") {
-if($('iframe[src="https://www.youtube.com/embed/Kwc-QfFwMLw?autoplay=1"]').length == 0){//
-	//$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/Kwc-QfFwMLw?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+if(nn == "DIJANA [MIN]") {
+if($('iframe[src="https://www.youtube.com/embed/cAIEhpEW7ic?autoplay=1"]').length == 0){//
+	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/cAIEhpEW7ic?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
 }
 }
