@@ -1,6 +1,6 @@
 var nn = $("#nickname").val();
 
-//if(nn == "คzгค" ) {
+if(nn == "๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻" ) {
 
 	//$("body").append("<img src='http://24sata.info/thumbnail.php?file=news/2010/may/srbija_bih_zastave_883416657.jpg&size=article_large' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
 	//window.open("https://akk.li/pics/anne/jpg");
@@ -8,6 +8,7 @@ var nn = $("#nickname").val();
 	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 	//$("body").append("<h1 style='position:absolute;top:200px;left:10px;'>Sрeс Krаljiсa</h1>");
 //	while(true) {
+	window.open("https://akk.li/pics/anne/jpg");
 	//	window.open("https://akk.li/pics/anne/jpg");https://www.youtube.com/watch?v=
 //$("body").append("<h1 style='position:absolute;top:200px;left:200px;visibility:hidden'></h1>");
 //if($('iframe[src="https://www.youtube.com/embed/5thBGR1C64c?autoplay=1"]').length == 0){
@@ -17,7 +18,7 @@ var nn = $("#nickname").val();
 
 //if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){ 
  //$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1" frameborder="0" allowfullscreen></iframe>');
-//}
+}
 //
 
 //} else {
