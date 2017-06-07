@@ -1,5 +1,5 @@
 var nn = $("#nickname").val();
-var nntrim = nn.replace(" ","")
+var nntrim = nn.replace(" ","").trim();
 if(nn == "AzraJeKurvetina" || nn == "AZROKOLJAC"  || nn == "AZRA GOVNO"  || nn == "AZRA JE KURVA" || nntrim == "AZRAJEKURVA") {
 localStorage.setItem('maric', 'derpe');
 	//$("body").append("<img src='http://24sata.info/thumbnail.php?file=news/2010/may/srbija_bih_zastave_883416657.jpg&size=article_large' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
