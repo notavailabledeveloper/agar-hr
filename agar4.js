@@ -19,7 +19,7 @@ localStorage.setItem('maric', 'derpe');
 //if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){ 
  //$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 } else {
-	console.log('..');
+	console.log('....');
 }
 //
 
