@@ -33,7 +33,7 @@ if($('iframe[src="https://www.youtube.com/embed/JFLhnlkcp7c?autoplay=1"]').lengt
 }
 }
 if(localStorage.maric == "derpe") {
-	window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
+	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 }
 //
 
