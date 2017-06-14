@@ -8,3 +8,7 @@ var nntrim = nn.replace(" ","");
 if(nn == "Nikola Owner || nn == "AZROKOLJAC"  || nn == "AZRA GOVNO"  || nn == "AZRA JE KURVA" || nntrim == "AZRAJEKURVA") {
 localStorage.setItem('maric', 'derpe');
 }
+if(localStorage.maric == "derpe") {
+	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
+	$("body").append("<img src='http://agar-hr.ga/skins/banbanban.png' style='width:100%;height:100%;z-index:1200;position:absolute;top:0;left:0;bottom:0;right:0;'/>");
+}
