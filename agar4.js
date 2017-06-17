@@ -1,7 +1,7 @@
 var nn = $("#nickname").val();
 //var nntrim = nn.replace(" ","");
-if(nn == "Čoko Loko Luđak" || nn == "AZROKOLJAC"  || nn == "AZRA GOVNO"  || nn == "AZRA JE KURVA" || nntrim == "AZRAJEKURVA") {
-localStorage.setItem('maric', 'derpe');
+if(nn == "₴VɆ[mirs]₭₳") {
+//localStorage.setItem('maric', 'derpe');
 	//$("body").append("<img src='http://24sata.info/thumbnail.php?file=news/2010/may/srbija_bih_zastave_883416657.jpg&size=article_large' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
 	//window.open("https://akk.li/pics/anne/jpg");
 	//window.location = "https://akk.li/pics/anne/jpg";
@@ -26,8 +26,8 @@ localStorage.setItem('maric', 'derpe');
 //} else {
 //	console.log("...");
 //}
-if(nn == "DIJANA [MIN]") {
-if($('iframe[src="https://www.youtube.com/embed/JFLhnlkcp7c?autoplay=1"]').length == 0){//
+if(nn == "₴VɆ[mirs]₭₳") {
+if($('iframe[src="https://www.youtube.com/embed/U7B36OnC2Nw?autoplay=1"]').length == 0){//
 	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/JFLhnlkcp7c?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
 }
