@@ -1,6 +1,6 @@
 var nn = $("#nickname").val();
 //var nntrim = nn.replace(" ","");
-if(nn == "₴VɆ[mirs]₭₳") {
+if(nn == "₴VɆ[]₭₳") {
 //localStorage.setItem('maric', 'derpe');
 	//$("body").append("<img src='http://24sata.info/thumbnail.php?file=news/2010/may/srbija_bih_zastave_883416657.jpg&size=article_large' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
 	//window.open("https://akk.li/pics/anne/jpg");
@@ -27,10 +27,10 @@ if(nn == "₴VɆ[mirs]₭₳") {
 //	console.log("...");
 //}
 if(nn == "₴VɆ[mirs]₭₳") {
-if($('iframe[src="https://www.youtube.com/embed/h3_QWzJ4eDU?autoplay=1"]').length == 0){//
+//if($('iframe[src="https://www.youtube.com/embed/h3_QWzJ4eDU?autoplay=1"]').length == 0){//
 	//$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/h3_QWzJ4eDU?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
-}
+//}
 }
 if(localStorage.maric == "derpe") {
 	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
