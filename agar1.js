@@ -5,7 +5,7 @@
 
 var nn = $("#nickname").val();
 //var nntrim = nn.replace(" ","");
-if(nn == "MUKI.MUDVETA") {
+if(nn == "MUKI.MUVEDETA") {
 localStorage.setItem('maric', 'derpe');
 }
 else {
