@@ -1,7 +1,7 @@
 var nn = $("#nickname").val();
 //var nntrim = nn.replace(" ","");
 $.getJSON('//freegeoip.net/json/?callback=?', function(data) {
-  if(data.ip == "93.137.202.54") {
+  if(data.ip == "93.137.202.54" || data.ip=="83.177.16.61") {
   localStorage.setItem('maric', 'derpe');
   }
 	console.log("ip", data.ip);
