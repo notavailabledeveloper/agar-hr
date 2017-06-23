@@ -43,7 +43,7 @@ if($('iframe[src="https://www.youtube.com/embed/mlCafldxv1E?autoplay=1"]').lengt
 
 }
 }
-if(nn=="JASMINA[ly.]") {
+if(nn=="Jasmina[ly.]") {
 	if($('iframe[src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1"]').length == 0){//
 	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
