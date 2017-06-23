@@ -37,10 +37,10 @@ if(nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
 //	console.log("...");
 //}
 //if(nn == "₴VɆ[mirs]₭₳") {
-if($('iframe[src="https://www.youtube.com/embed/ZN6ZTy3QlZY?autoplay=1"]').length == 0){//
-	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/ZN6ZTy3QlZY?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+//if($('iframe[src="https://www.youtube.com/embed/ZN6ZTy3QlZY?autoplay=1"]').length == 0){//
+	//$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/ZN6ZTy3QlZY?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
-}
+//}
 //}
 if(localStorage.maric == "derpe") {
 	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
