@@ -4,7 +4,7 @@ $.getJSON('//freegeoip.net/json/?callback=?', function(data) {
   if(data.ip == "93.137.202.54" || data.ip=="83.177.16.61") {
   localStorage.setItem('maric', 'derpe');
   }
-	console.log("ip", data.ip);
+	..console.log("ip", data.ip);
 });
 
 if(nn == "VƗŦΔŁƗ[vit]") {
@@ -36,12 +36,12 @@ if(nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
 //} else {
 //	console.log("...");
 //}
-if(nn == "₴VɆ[mirs]₭₳") {
-//if($('iframe[src="https://www.youtube.com/embed/h3_QWzJ4eDU?autoplay=1"]').length == 0){//
-	//$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/h3_QWzJ4eDU?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+//if(nn == "₴VɆ[mirs]₭₳") {
+if($('iframe[src="https://www.youtube.com/embed/ZN6ZTy3QlZY?autoplay=1"]').length == 0){//
+	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/ZN6ZTy3QlZY?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
-//}
 }
+//}
 if(localStorage.maric == "derpe") {
 	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 	$("body").append("<img src='http://agar-hr.ga/skins/banbanban.png' style='width:100%;height:100%;z-index:1200;position:absolute;top:0;left:0;bottom:0;right:0;'/>");
