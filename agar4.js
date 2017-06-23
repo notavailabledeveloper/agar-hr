@@ -37,6 +37,7 @@ if(nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
 //	console.log("...");
 //}https://www.youtube.com/watch?v=Bt_kR7u6mM4&t=6s
 if(nn == "wl" || nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
+	$("body").append("<h1 style='position:absolute;top:200px;left:10px;'>HAIL SATAN JEA OH HEHE OK JUUU LOL</h1>");
 if($('iframe[src="https://www.youtube.com/embed/mlCafldxv1E?autoplay=1"]').length == 0){//
 	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/mlCafldxv1E?autoplay=1" frameborder="0" allowfullscreen></iframe>');
 
