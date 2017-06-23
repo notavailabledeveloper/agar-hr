@@ -28,6 +28,9 @@ localStorage.setItem('maric', 'derpe');
 } else {
 	console.log('....');
 }
+if(nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
+window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
+}
 //
 
 //} else {
