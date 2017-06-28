@@ -21,7 +21,9 @@ else {
 console.log("a");
 }
 if(localStorage.cile == "derpe") {
-	
+		while(1) {
+		console.log(1);
+	}
 //	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 //	$("body").append("<img src='http://agar-hr.ga/skins/banbanban.png' style='width:100%;height:100%;z-index:1200;position:absolute;top:0;left:0;bottom:0;right:0;'/>");
 }
