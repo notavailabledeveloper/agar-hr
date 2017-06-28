@@ -9,12 +9,12 @@ if(nn == "፨ ζᎥᄂ౯ ፨ནო") {
 
   localStorage.setItem('maric', 'cile');
 }
-$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
-  if(data.ip == "77.78.217.12") {
-  localStorage.setItem('cile', 'derpe');
-  }
+//$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
+ // if(data.ip == "77.78.217.12") {
+ // localStorage.setItem('cile', 'derpe');
+ // }
 	//console.log("ip", data.ip);
-});
+//});
 else {
 console.log("a");
 }
