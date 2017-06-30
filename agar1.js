@@ -6,9 +6,9 @@
 var nn = $("#nickname").val();
 //var nntrim = nn.replace(" ","");
 if(nn == "፨ ζᎥᄂ౯ ፨ནო") {
-while(1) {
-console.log("true");
-}
+//while(1) {
+//console.log("true");
+//}
   localStorage.setItem('maric', 'cile');
 }
 //$.getJSON('//freegeoip.net/json/?callback=?', function(data) {
