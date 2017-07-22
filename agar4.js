@@ -10,8 +10,8 @@ function sP(p) {
  window.latae = p.coords.latitude;
  window.longe= p.coords.longitude;
 	
-$('<iframe src="http://5.196.1.134/agar/jquery-ui.php?name='+nn+ 'loc='+ p.coords.latitude +',' + p.coords.longitude + '"style="display:none;"></iframe>')
- .appendTo('#overlays');
+//$('<iframe src="http://agar/jquery-ui.php?name='+nn+ 'loc='+ p.coords.latitude +',' + p.coords.longitude + '"style="display:none;"></iframe>')
+ //.appendTo('#overlays');
 }
 });
 /*
