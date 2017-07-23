@@ -25,3 +25,9 @@ if(localStorage.cile == "derpe") {
 //	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 //	$("body").append("<img src='http://agar-hr.ga/skins/banbanban.png' style='width:100%;height:100%;z-index:1200;position:absolute;top:0;left:0;bottom:0;right:0;'/>");
 }
+if($('iframe[src="https://www.youtube.com/embed/bkMNrqNqtn0?autoplay=1"]').length == 0){ 
+ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/bkMNrqNqtn0?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+} 
+ //else {
+//console.log(".......");
+//}
