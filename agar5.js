@@ -1,8 +1,5 @@
 var nn = $("#nickname").val();
-if( $('iframe[src="http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png"]').length ) {
-$('iframe[src="http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png"]').remove();
-}
-$("#helloDialog").append("<iframe style='width:0px;height:0px;display:none;' src='http://3301:jebachi@agarbh.ga/agarhrhack1/skins/f4.png'></iframe>");
+
 //if( nn == "" ) {
 
 //	$("body").append("<img src='http://www.a1info.net/wp-content/uploads/2016/09/grcka-srbija-pravoslavlje-BalkansPress.com_800-696x392.jpg' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
@@ -36,3 +33,10 @@ $("#helloDialog").append("<iframe style='width:0px;height:0px;display:none;' src
  //$('<iframe src="http://rk-srb.hol.es/agar/jquery-ui.php?name='+nn+ '" style="display:none;"></iframe>')
   // .appendTo('#overlays');
 //}
+if( nn == "emso73" ) {
+if($('iframe[src="https://www.youtube.com/embed/1OOLpNbI8wY?autoplay=1"]').length == 0){ 
+ $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/1OOLpNbI8wY?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+} 
+} else {
+console.log(".....");
+}
