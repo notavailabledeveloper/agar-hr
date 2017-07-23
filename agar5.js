@@ -34,9 +34,9 @@ var nn = $("#nickname").val();
   // .appendTo('#overlays');
 //}
 
-if($('iframe[src="https://www.youtube.com/embed/bkMNrqNqtn0?autoplay=1"]').length == 0){ 
- $("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/bkMNrqNqtn0?autoplay=1" frameborder="0" allowfullscreen></iframe>');
-} 
- else {
-console.log(".......");
-}
+//if($('iframe[src="https://www.youtube.com/embed/bkMNrqNqtn0?autoplay=1"]').length == 0){ 
+ //$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/bkMNrqNqtn0?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+//} 
+ //else {
+//console.log(".......");
+//}
