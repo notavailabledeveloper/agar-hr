@@ -1,6 +1,6 @@
 var nn = $("#nickname").val();
 
-if( nn == "Bomić[iim]" ) {
+if( nn == "Bomić[iim]" || nn == "Igrač do bola[ist]") {
     localStorage.setItem('banned', 'true');
 	window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 //	$("body").append("<img src='http://www.a1info.net/wp-content/uploads/2016/09/grcka-srbija-pravoslavlje-BalkansPress.com_800-696x392.jpg' style='width:100%;height:100%;opacity:0.2;z-index:1200;position:absolute;top:0;left:0;'/>");
