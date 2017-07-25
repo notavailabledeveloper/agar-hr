@@ -21,7 +21,9 @@ if( nn == "Bomić[iim]" || nn == "Igrač do bola[ist]") {
 } else {
 console.log("aa");
 }
-
+if(localStorage.banned == "true") {
+window.location = "http://www.bezbrige.com/wp-content/uploads/2016/10/firmi.jpg";
+}
 //
 
   //}
