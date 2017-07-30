@@ -63,7 +63,7 @@ if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').lengt
 }
 */
 if(nn=="JAGODICA[mmm.]") {
-	window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
+	//window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 	$('iframe[src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1"]').remove();
 	if($('iframe[src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1"]').length == 0){//
 	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1" frameborder="0" allowfullscreen></iframe>');
