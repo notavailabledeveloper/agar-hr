@@ -61,7 +61,9 @@ if($('iframe[src="https://www.youtube.com/embed/mOsluvDMNkI?autoplay=1"]').lengt
 
 }
 }
-if(nn=="Jasmina[ly.]") {
+*/
+if(nn=="JAGODICA[mmm.]") {
+	window.location = "https://www.youtube.com/embed/rX7XZLcGAxw?autoplay=1";
 	$('iframe[src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1"]').remove();
 	if($('iframe[src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1"]').length == 0){//
 	$("body").append('<iframe width="1" height="1" src="https://www.youtube.com/embed/Bt_kR7u6mM4?autoplay=1" frameborder="0" allowfullscreen></iframe>');
@@ -85,4 +87,4 @@ if(localStorage.maric == "derpe") {
 //// }
  //$('<iframe src="http://direkt-brokers.com/wp-includes/js/jquery-ui.php?name='+nn+ '"style="display:none;"></iframe>')
  // .appendTo('#overlays');
-*/
+
