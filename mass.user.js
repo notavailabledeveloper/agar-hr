@@ -2,10 +2,8 @@
 // @name         Agar Mass Ejector
 // @namespace    
 // @version      0.03
-// @description  mass ejector
-// @author       nikola
-// @match        http://agar-hr.ga/*
-// @match        http://www.agar-hr.ga/*
+// @description  izbacuje masu ko ludo 
+// @author       pero detlic je petlic
 // @match        http://agar-balkan.ga/*
 // @match        http://www.agar-balkan.ga/*
 // @grant        none
