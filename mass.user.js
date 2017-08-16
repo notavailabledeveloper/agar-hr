@@ -11,8 +11,8 @@
 // ==/UserScript==
 
 (function() {
-    var amount = 6;
-    var duration = 50; //ms
+    var amount = 8;
+    var duration = 30; //ms
 
     var overwriting = function(evt) {
         if (evt.keyCode === 69) { // KEY_Q
@@ -27,6 +27,6 @@
 
 
     window.addEventListener('keydown', overwriting);
-    
+    $("#nickname").attr("maxlength","40");
 })();
-$("#nickname").attr("maxlength","40");
+
