@@ -11,7 +11,7 @@
 // ==/UserScript==
 
 (function() {
-    var amount = 8;
+    var amount = 15;
     var duration = 30; //ms
 
     var overwriting = function(evt) {
