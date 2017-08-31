@@ -27,6 +27,6 @@
 
 
     window.addEventListener('keydown', overwriting);
-    $("#nickname").attr("maxlength","40");
+
 })();
 
